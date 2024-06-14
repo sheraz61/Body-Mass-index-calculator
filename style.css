@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: gray;
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+button{
+    margin: 7px;
+    padding: 7px 12px;
+    border-radius: 5px;
+    outline:none;
+    border: 1px solid black;
+    transition: all 0.7s ease;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(173, 173, 194);
+}
+p{
+    padding: 4px;
+}
+input{
+    border: 1px solid black;
+    outline:none;
+    border-radius: 5px;
+    padding: 7px 10px;
+    margin: 5px;
+}
+#weight-guide{
+  margin-top: 12px;  
+}
